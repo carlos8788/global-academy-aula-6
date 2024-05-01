@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>JSON y LocalStorage</h1>
+    <form action="">
+        <label for="nombre">nombre</label>
+        <input type="text" name="nombre">
+        <p class="d-none warning" id="prod-nombre">Debe introducir un nombre</p>
+        <label for="precio">precio</label>
+        <input type="text" name="precio">
+        <p class="d-none warning" id="prod-precio">Debe introducir un precio</p>
+        <label for="cantidad">cantidad</label>
+        <input type="number" name="cantidad">
+        <p class="d-none warning" id="prod-cantidad">Debe introducir una cantidad</p>
+        <input type="submit" value="cargar producto">
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>nombre</th>
+                <th>precio</th>
+                <th>cantidad</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <footer>
+        <div class="contenidoAsync">
+
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
