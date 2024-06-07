@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumo API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section class="formulario">
+            <div class="form-contenedor">
+                <form>
+                    <input type="text" placeholder="Nombre completo" name="name">
+                    <select name="curso">
+                        <option value="js">JavaScript</option>
+                    </select>
+                    <input type="submit" value="Enviar">
+                    <input type="reset">
+                </form>
+            </div>
+        </section>
+        <section class="tabla">
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nombre completo</th>
+                        <th>Curso</th>
+                        <th>Fecha</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="bg-blueligth">
+                        <td>1</td>
+                        <td>Luis Perez</td>
+                        <td>JavaScript</td>
+                        <td>20-12-2023</td>
+                        <td>
+                            <button class="buttons btn-edit">EDIT</button>
+                            <button class="buttons btn-delete">DELETE</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Luis Perez</td>
+                        <td>JavaScript</td>
+                        <td>20-12-2023</td>
+                        <td>
+                            <button>EDIT</button>
+                            <button>DELETE</button>
+                        </td>
+                    </tr>
+                    <tr class="bg-blueligth">
+                        <td>1</td>
+                        <td>Luis Perez</td>
+                        <td>JavaScript</td>
+                        <td>20-12-2023</td>
+                        <td>
+                            <button>EDIT</button>
+                            <button>DELETE</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Luis Perez</td>
+                        <td>JavaScript</td>
+                        <td>20-12-2023</td>
+                        <td>
+                            <button>EDIT</button>
+                            <button>DELETE</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="container"></div>
+        </section>
+
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
